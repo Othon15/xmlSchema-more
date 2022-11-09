@@ -1,0 +1,5 @@
+1.problem with refId="xs:string" in l13 re_residence attribute refId cannot appear in element "element".
+
+2. i have to transform 0/1 to yes/no  boolean trasformation as a function maybe or as a const???
+
+3.populate values and return it to console!
