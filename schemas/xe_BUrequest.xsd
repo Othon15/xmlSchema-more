@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementfFormDefault="qualified" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.xe.gr" xsi:noNamespaceSchemaLocation="xe_BUrequest.xsd">     
+    <xs:element name="AddItemsRequest">            
+        <xs:complexType>
+            <xs:sequence>   
+                <xs:element name="Package.AuthToken" type="xs:string"/>
+                 <xs:element name="Package.schemaVersion" type="xs:decimal"/>
+                  <xs:element name="Package.id" type="xs:string"/>
+                   <xs:element name="Package.timestamp" type="xs:dateTime"/>
+                    <xs:element name="Package.trademark" type="xs:string"/>
+                     <xs:element name="Package.policy" type="xs:string"/>
+
+    <xs:element name="re_residence" refId="xs:string">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Item.ownerId" type="xs:integer"/>
+                    <xs:element name="Item.majorPhone" type="xs.integer"/>
+            </xs:sequence>  
+        </xs:complexType>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Field">
+                    <xs:element name="id" type="xs:string"/>
+                        <xs:element name=|"Value" type="xs:string"/>
+                            </xs:element>
+                <xs:element name="Field">
+                    <xs:element name="listing_id" type="xs:string"/>
+                        <xs:element name=|"Value" type="xs:integer"/>
+                            </xs:element>
+                 <xs:element name="Field">
+                     <xs:element name="owner" type="xs:string"/>
+                        <xs:element name=|"Value" type="xs:integer"/>
+                            </xs:element>
+                <xs:element name="Field">
+                    <xs:element name="description" type="xs:string"/>
+                        <xs:element name=|"Value" type="xs:string"/>
+                            </xs:element>
+                <xs:element name="Field">
+                    <xs:element name="title" type="xs:string"/>
+                        <xs:element name=|"Value" type="xs:string"/>
+                            </xs:element>   
+                <xs:element name="Field">
+                    <xs:element name="status" type="xs:string"/>
+                        <xs:element name=|"Value" type="xs:string"/>
+                            </xs:element>
+                <xs:element name="Field">
+                    <xs:element name="modified_at" type="xs:string"/>
+                        <xs:element name=|"Value" type="xs:string"/>
+                            </xs:element>       
+                <xs:element name="Field">
+                    <xs:element name="property_object_id" type="xs:string"/>
+                        <xs:element name=|"Value" type="xs:integer"/>
+                            </xs:element>
+                <xs:element name="Field">
+                    <xs:element name="address" type="xs:string"/>
+                        <xs:element name=|"Value" type="xs:string"/>
+                            </xs:element>
+                <xs:element name="Field">
+                    <xs:element name="aircondition" type="xs:string"/>
+                        <xs:element name=|"Value" type="xs:string"/>
+                            </xs:element>
+                <xs:element name="Field">
+                    <xs:element name="aircondition_number" type="xs:string"/>
+                      <xs:element name=|"Value" type="xs:string"/>
+                            </xs:element>
+                <xs:element name="Field">
+                    <xs:element name="airy" type="xs:string"/>
+                        <xs:element name=|"Value" type="xs:boolean"/>
+                            </xs:element>
+                <xs:element name="Field">
+                    <xs:element name="id" type="xs:string"/>
+                        <xs:element name=|"Value" type="xs:string"/>
+                            </xs:element>
+        
+           
+            </xs:sequence>
+          </xs:complexType>
+         <xs:element name="re_residence" refId="xs:string">
+    </xs:element name="AddItemsRequest"> 
+</xs:schema>
+
+
+
+
+
